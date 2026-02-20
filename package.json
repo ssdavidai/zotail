@@ -1,0 +1,23 @@
+{
+  "name": "@ssdavidai/zotail",
+  "version": "1.0.0",
+  "description": "Set up Tailscale on your Zo workspace with auto-restart on session reboot",
+  "bin": {
+    "zo-tailscale": "./bin/zo-tailscale.js",
+    "zotail": "./bin/zo-tailscale.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "templates/"
+  ],
+  "keywords": ["zo", "tailscale", "vpn", "sidecar"],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssdavidai/zotail.git"
+  }
+}
