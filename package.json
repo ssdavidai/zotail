@@ -1,6 +1,6 @@
 {
   "name": "@ssdavidai/zotail",
-  "version": "1.1.0",
+  "version": "1.2.0-next.0",
   "description": "Set up Tailscale on your Zo workspace with auto-restart on session reboot",
   "bin": {
     "zo-tailscale": "./bin/zo-tailscale.js",
